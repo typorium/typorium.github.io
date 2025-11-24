@@ -1,0 +1,89 @@
+/*
+Color palette:
+    - EFECE3
+    - 8FABD4
+    - 4A70A9
+    - 000000
+    - #A9834A
+*/
+
+
+/*********************************
+* FONTS
+*********************************/
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: Renogare-Regular; /* set name */
+  src: url(../assets/fonts/renogare-regular.otf); /* url of the font */
+}
+
+
+
+/*********************************
+* HTML ELEMENTS
+*********************************/
+body {
+    background-color: #EFECE3;
+
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+hr {
+    display: flex;
+
+    border-radius: 5px;
+
+    margin-bottom: -2px;
+
+    border: 0px;
+    background-color: #6d6d6d;
+
+    height: 1px;
+    width: 95%
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*********************************
+* PRESETS
+*********************************/
+.generic-area {
+
+    /* Rounded corners */
+    border-radius: 5px;
+
+    /* Horizontal centering */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Color of area */
+    background-color: #A9834A;
+    
+    /* Space for text */
+    padding: 5px;
+
+    /* Default font */
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.big-title {
+
+    /* Font */
+    font-family: Renogare-Regular;
+    font-size: 40px;
+
+    /* Placement */
+    margin-inline: auto;
+    text-align: center;
+
+    /* Size */
+    width: fit-content;
+}

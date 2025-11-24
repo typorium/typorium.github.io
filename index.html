@@ -3,9 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typorium's Page</title>
+    <title>Typorium's Home page</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/navigation_bar.css">
+    <link rel="stylesheet" href="css/home.css">
+
+    <!-- JAVASCRIPT -->
+    <script src="js/shared/navigation_bar.js"></script>
 </head>
 <body>
+
+    <!-- Navigation bar -->
+    <script>
+        document.write(insert_navigation_bar("./"));
+    </script>
+
+    <!-- Title -->
+    <div class="big-title" id="title">
+        <p>Welcome to my page!</p>
+    </div>
+
+    <!-- Presentation -->
+    <div class="generic-area" id="presentation">
+        <img id="presentation-image" src="assets/imgs/shared/typorium_profilepic.png" alt="Profile picture">
+        <p>
+            I'm Typorium, a guy who plays games and writes code. I also make some occasional music on the side. <br> <br>
+            My main games are Celeste, with over 2000 hours as of writing this.<br>
+            I play some geometry dash too, although I'm not as interested in it as Celeste.</p>
+    </div>
+
+    <hr>
+    <hr>
+
+    <!-- Page's usage -->
+    <div class="big-title">
+        <p>What is this website's purpose ?</p>
+    </div>
+
+    <div class="generic-area" id="page-usage">
+        <p>
+            I want this website to be my all-in-one. I eventually want this to be a place where I do everything:
+            share small scripts, talk about my accomplishments, and make some documentation for my Celeste mods.
+            Everything is accessible either by the navigation bar, or from the page itself.
+        </p>
+    </div>
+
+    <hr>
+    <hr>
+
+    <!-- Others -->
+    <div class="big-title" id="other">
+        <p>
+            Other things I wanted to include :D
+        </p>
+    </div>
+
+    <!-- Youtube Links -->
+    <div id="ytb-links">
+
+        <div class="ytb-title" id="ytb-link-1">
+            <p>Main channel</p>
+
+            <a href="https://www.youtube.com/@typorium">
+                <img src="./assets/imgs/shared/youtube_logo.png" class="ytb-img">
+            </a>
+        </div>
+
+        <div class="ytb-title" id="ytb-link-2">
+            <p>Secondary channel</p>
+
+            <a href="https://www.youtube.com/@typoriumgameplay">
+                <img src="./assets/imgs/shared/youtube_logo.png" class="ytb-img">
+            </a>
+        </div>
+
+        <div class="generic-area" id="ytb-desc-1">
+            <p>
+                Technically my "main" channel, but I hardly post on it. I use it to upload some
+                songs I make for celeste maps, alongside some original music.
+            </p>
+        </div>
+
+        <div class="generic-area" id="ytb-desc-2">
+            <p>
+                The channel I post the most on. I use this to upload mostly gameplay and achivements, but I may
+                start using it for some tutorials in the future, who knows ?
+            </p>
+        </div>
+    </div>
+
+    <hr>
+    <hr>
+    
+    <!-- Discord -->
+    <div id="contact">
+        <p>
+            Should you feel the need to contact me about anything, feel free to ping
+            me on discord, or send me a private message directly :) ! My discord tag is @typorium.
+        </p>        
+    </div>
     
 </body>
 </html>

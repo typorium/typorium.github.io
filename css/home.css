@@ -1,0 +1,146 @@
+#title {
+
+    /* Vertical spacing */
+    margin-top: 80px;    
+}
+
+#presentation-image {
+
+    /* Rounded corners */
+    border-radius: 5px;
+
+    /* Size of containers */
+    width: 20%;
+
+    /* Left and right positioning */
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px;
+    margin-right: 10%;
+
+}
+#presentation {
+
+    display: flex;
+
+    /* Margins */
+    margin-bottom: 100px;
+
+    /* Size of container */
+    max-width: 50%;
+    width: fit-content;
+
+}
+
+#page-usage {
+
+    display: flex;
+    
+    /* Margins */
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: center;
+
+    /* Size of container */
+    width: 70%;
+}
+
+#other {
+
+    /* Margins */
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+#ytb-links {
+
+    /* Grid's size */
+    display: grid;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: 1/3 2/3;
+
+    /* Size */
+    width: 80%;
+
+    /* Placement */
+    margin-inline: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+#ytb-links > *{
+    margin: auto;
+}
+
+.ytb-img {
+    width: 70px;
+}
+
+.ytb-title {
+
+    /* Grid's size */
+    display: grid;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: 1;
+
+    /* Text */
+    align-items: center;
+    font-family: Renogare-Regular;
+    font-size: 30px;
+}
+.ytb-title > * {
+    margin: 20px;
+}
+
+#ytb-link-1 {
+
+    /* Grid's placement */
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#ytb-link-2 {
+
+    /* Grid's placement */
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#ytb-desc-1 {
+
+    /* Grid's placement */
+    grid-column: 1;
+    grid-row: 2;
+
+    /* Size */
+    width: 80%;
+}
+
+#ytb-desc-2 {
+
+    /* Grid's placement */
+    grid-column: 2;
+    grid-row: 2;
+
+    /* Size */
+    width: 80%;
+}
+
+#contact {
+
+    /* Placements */
+    margin-top: 50px;
+    margin-inline: auto;
+
+    /* Font and text */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+    /* Size */
+    width: 40%;
+
+}

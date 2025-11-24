@@ -1,0 +1,65 @@
+/*********************************
+* NAVIGATION BAR
+*********************************/
+.navigation-bar {
+
+    /* Make navigation bar flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Make it follow the page */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+    /* Background and size */
+    background-color: #4A70A9;
+    height: 60px;
+
+    /* Shadows */
+    box-shadow: 0px 1px 10px 1px #000000;
+
+}
+
+.navigation-bar-item {
+
+    /* Text decorations for links */
+    color: #EFECE3;
+    text-decoration: none;
+
+    /* Text shadows */
+    text-shadow: 0px 3px 2px #000000;
+
+    /* Inherits height of navigation bar */
+    text-align: center;
+    vertical-align: middle;
+
+    /* Font's properties */
+    font-family: Renogare-Regular;
+    font-size: 30px;
+    
+    /* Center vertically */
+    vertical-align: middle;
+    text-align: center;
+
+    /* Make items spaced out from eachothers */
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.navigation-bar-item:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+#navigation-bar-logo {
+
+    /* Size */
+    height: 70%;
+
+    /* Make logo on left side of page */
+    margin-left: 0px;
+    margin-right: 0px;
+}
