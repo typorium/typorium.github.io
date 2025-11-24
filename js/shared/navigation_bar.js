@@ -9,7 +9,7 @@ function insert_navigation_bar(root_relative_path)
     let IMG_LOGO = root_relative_path + "assets/imgs/shared/typorium_logo.png";
 
     // Home
-    let HOME = root_relative_path + "index.html";
+    let HOME = root_relative_path + "index.htm";
     
 
     return (
